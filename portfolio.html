@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio.html</title>
+  </head>
+  <body>
+    <header>
+      <!-- heading -->
+      <h1>My Portfolio webpage</h1>
+      <ul>
+        <nav>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Work">Work</a></li>
+          <li><a href="#Resume">Resume</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </nav>
+      </ul>
+    </header>
+    <h3>welcome to Ian's Portfolio</h3>
+    <p>
+      I go by the name of Ian Isaac Odhiambo.I have variouse hobbies that keep
+      me engaged in my day to day activities that help me break the cycle of
+      going to work every single day
+    </p>
+    <section id="About">
+      <h3>About</h3>
+      <p>
+        Am currently working for an Edu finance instiution and its a private
+        organisation and that offers tech-related Courses and manufacture
+        competent individuals who know what they are doing when they are
+        introduced to the job market.Ive previously worked for various
+        instiutions that have molded me into the individual i am right now
+      </p>
+
+      <ul>
+        <strong
+          ><em
+            ><li>playing basketball</li>
+            <li>painting</li>
+            <li>coding</li>
+            <li>swimming</li></em
+          ></strong
+        >
+      </ul>
+      <a href="">Read More</a>
+      <!-- videos -->
+      <br />
+      <video width="640" height="360" controls>
+        <source src="Download.mp4" type="video/mp4" />
+        enjoy the video
+      </video>
+    </section>
+    <section id="Work">
+      <h3>Work</h3>
+      <p>
+        I am familiar with various fields through the experiences ive gathered
+        over the years through internships and upscaling further a notch higher
+        on my
+      </p>
+      <a href="post">Read More</a>
+    </section>
+    <section id="Resume">
+      <h3>Resume</h3>
+      <p>
+        The following link contains information on the institutions where ive
+        previously studied and gathered experiences in tech-related fields and
+        below are links you can use to download my resume
+      </p>
+      <p>Download my resume <a href="files/resume.pdf">download here</a></p>
+    </section>
+    <!-- tables -->
+    <table border="25">
+      <thead>
+        <tr>
+          <th>Course</th>
+          <th>Institution</th>
+          <th>Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Software Engineering</td>
+          <td>GOMYCODE</td>
+          <td>2024-2025</td>
+        </tr>
+        <tr>
+          <td>Sale & Marketing</td>
+          <td>Mahanaim College</td>
+          <td>2022-2023</td>
+        </tr>
+        <tr>
+          <td>Computer Packages</td>
+          <td>Mahanaim College</td>
+          <td>2021-2023</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <section id="Contact">
+      <!-- form -->
+      <h3>Contact</h3>
+      <form action="submit_form.php" method="post">
+        <strong><label for="name">Name:</label></strong><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <strong><label for="email">Email:</label></strong><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <strong><label for="message">Message:</label></strong><br />
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea
+        ><br /><br />
+
+        <input type="submit" value="Submit" />
+    </section>
+    <footer id="mainfooter">
+      <p>Copyright &copy; 2025, My Webpage</p>
+    </footer>
+  </body>
+</html>
